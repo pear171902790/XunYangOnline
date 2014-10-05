@@ -1,0 +1,69 @@
+﻿.ui-accordion-content {
+    height: auto !important;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list {
+    width: 100%;
+}
+.list td,.list th {
+    border: 1px solid silver;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: gray;
+}
+.ui-accordion-content,.ui-accordion-content li {
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+.ui-accordion-content li:hover,.ui-accordion-content li:active {
+    background-color: yellow;
+    
+}
+.ui-dialog-titlebar {
+    display: none;
+}
+#dialog {
+    position: fixed;
+    width: 800px;
+    height: 500px;
+    z-index: 10;
+    border: 1px solid silver;
+    top: 100px;
+    left: 300px;
+    background-image: url(add_or_edit_bj.jpg);
+
+}
+.del {
+
+    float: right;
+}
+#left {
+    float: left;
+}
+#menu li ,#menu{
+    width: 100px;
+}
+#tb {
+    border: 1px solid silver;
+    float: right;
+    width: 80%;
+}
+th,td {
+    text-align: center;
+}
+#btn_add_category{ width: 100px;}
+#add_category {
+    padding: 10px;
+}
+
+

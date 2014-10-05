@@ -1,0 +1,62 @@
+﻿@model XYOL.MvcWeb.ViewModel.AdminLoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录后台</title>
+
+    <!-- Bootstrap -->
+      <link href="~/Content/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet" />
+   
+      
+      <link href="~/Content/css/login.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+      <div class="container">
+
+      <form class="form-signin" role="form" method="POST">
+        <h2 class="form-signin-heading">请登录</h2>
+        <input name="Email" type="email" class="form-control" placeholder="邮箱地址" required autofocus value="@(Model!=null?Model.Email:string.Empty)">
+        <input id="pwd" name="Password" type="password" class="form-control" placeholder="密码" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> 记住我?
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+        <br/><span class="message">@(Model!=null?Model.Message:string.Empty)</span>
+      </form>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+      
+
+      <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="~/Content/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      @if (Model != null)
+      {
+          <script>
+              $('#pwd').focus();
+          </script>
+      }
+      
+  </body>
+</html>

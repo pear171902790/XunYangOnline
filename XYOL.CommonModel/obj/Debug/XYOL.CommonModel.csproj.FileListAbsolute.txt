@@ -1,0 +1,5 @@
+D:\XYOnline\XYOL.CommonModel\bin\Debug\XYOL.CommonModel.dll
+D:\XYOnline\XYOL.CommonModel\bin\Debug\XYOL.CommonModel.pdb
+D:\XYOnline\XYOL.CommonModel\obj\Debug\XYOL.CommonModel.csprojResolveAssemblyReference.cache
+D:\XYOnline\XYOL.CommonModel\obj\Debug\XYOL.CommonModel.dll
+D:\XYOnline\XYOL.CommonModel\obj\Debug\XYOL.CommonModel.pdb

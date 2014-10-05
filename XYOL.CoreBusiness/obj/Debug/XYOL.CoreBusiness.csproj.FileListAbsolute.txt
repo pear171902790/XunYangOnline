@@ -1,0 +1,4 @@
+D:\XYOnline\XYOL.CoreBusiness\bin\Debug\XYOL.CoreBusiness.dll
+D:\XYOnline\XYOL.CoreBusiness\bin\Debug\XYOL.CoreBusiness.pdb
+D:\XYOnline\XYOL.CoreBusiness\obj\Debug\XYOL.CoreBusiness.dll
+D:\XYOnline\XYOL.CoreBusiness\obj\Debug\XYOL.CoreBusiness.pdb
