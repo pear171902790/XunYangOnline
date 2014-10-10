@@ -1,0 +1,91 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+    <link href="~/Content/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/admin_index.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrap">
+        <div id="head">
+            <span class="head_left"><b>旬阳在线后台管理系统</b></span>
+            <span class="head_right"><b>下午好，管理员admin！</b><input type="button" value="退出" class="btn btn-sm btn-primary" /></span>
+        </div>
+        <div style="clear: both"></div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="~/Content/images/PNG/home.png" />
+                    </a>
+                    <p><a href="#"><b>回到主页</b></a></p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="~/Content/images/PNG/listview.png" />
+                    </a>
+                    <p><a href="#"><b>信息管理</b></a></p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="~/Content/images/PNG/myspace.png" />
+                    </a>
+                    <p><a href="#"><b>用户管理</b></a></p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="~/Content/images/PNG/setting.png" />
+                    </a>
+                    <p><a href="#"><b>权限管理</b></a></p>
+                </li>
+
+            </ul>
+        </div>
+        <div id="main">
+            <div class="main_left">
+                <div class="category_title">信息类别</div>
+                <ul>
+                    <li>
+                        <img src="~/Content/images/PNG/add.png" class="add_sub" style="display: none;"/>
+                        <img src="~/Content/images/PNG/sub.png" class="add_sub" />
+                        新闻
+                    </li>
+
+                    <li class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--视频
+                    </li>
+                    <li class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--图片
+                    </li>
+                    <li>
+                        <img src="~/Content/images/PNG/add.png" class="add_sub" />
+                        时政
+                    </li>
+                </ul>
+            </div>
+            <div class="main_right"></div>
+        </div>
+        <div id="foot">2012版权</div>
+    </div>
+</body>
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script>
+    $('.add_sub').click(function () {
+        if ($(this).attr('src') === '/Content/images/PNG/sub.png') {
+            $(this).prev('img').show();
+            $(this).hide();
+            $('.c1').hide();
+        } else {
+            $(this).next('img').show();
+            $(this).hide();
+            $('.c1').show();
+        }
+    });
+</script>
+</html>
+

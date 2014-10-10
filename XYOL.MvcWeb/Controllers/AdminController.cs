@@ -43,6 +43,11 @@ namespace XYOL.MvcWeb.Controllers
             return View(vm);
         }
 
+        public ActionResult Index()
+        {
+            return View();
+        }
+
         public ActionResult Save_New_Category([ModelBinder(typeof(FormRequestToDynamicBinder))]dynamic category)
         {
             var category_ = new Category()

@@ -178,6 +178,7 @@
     <Content Include="Content\css\11.jpg" />
     <Content Include="Content\css\13.jpg" />
     <Content Include="Content\css\add_or_edit_bj.jpg" />
+    <Content Include="Content\css\admin_index.css" />
     <Content Include="Content\css\login.css" />
     <Content Include="Content\css\bj.jpg" />
     <Content Include="Content\css\home.css" />
@@ -187,6 +188,20 @@
     <Content Include="Content\css\logo.png" />
     <Content Include="Content\css\show_tab_bg.gif" />
     <Content Include="Content\gg.swf" />
+    <Content Include="Content\images\1.jpg" />
+    <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\3.jpg" />
+    <Content Include="Content\images\PNG\add.png" />
+    <Content Include="Content\images\PNG\home.png" />
+    <Content Include="Content\images\PNG\listview.png" />
+    <Content Include="Content\images\PNG\myspace.png" />
+    <Content Include="Content\images\PNG\setting.png" />
+    <Content Include="Content\images\PNG\sub.png" />
+    <Content Include="Content\images\wood\1.jpg" />
+    <Content Include="Content\images\wood\2.jpg" />
+    <Content Include="Content\images\wood\3.jpg" />
+    <Content Include="Content\images\wood\4.jpg" />
+    <Content Include="Content\images\wood\5.jpg" />
     <Content Include="Content\jQueryUI\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="Content\jQueryUI\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
     <Content Include="Content\jQueryUI\images\ui-bg_flat_10_000000_40x100.png" />
@@ -517,6 +532,7 @@
     </Content>
     <Content Include="Views\Admin\Test.cshtml" />
     <Content Include="Views\Admin\List.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
