@@ -56,6 +56,14 @@ namespace XYOL.MvcWeb.Controllers
         }
 
 
+        public ActionResult List()
+        {
+            var arr = Request["arr[]"].Split(',');
+            var id = Request["id"];
+            var vm = new AdminListViewModel() {LevelNames = arr.ToList(), Id = Convert.ToInt32(id)};
+            return PartialView(vm);
+        }
+
 
         public ActionResult Test()
         {

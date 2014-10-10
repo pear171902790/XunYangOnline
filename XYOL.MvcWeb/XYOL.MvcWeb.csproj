@@ -144,6 +144,7 @@
     <Compile Include="User.cs">
       <DependentUpon>XYOL.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\AdminListViewModel.cs" />
     <Compile Include="ViewModel\AdminLoginViewModel.cs" />
     <Compile Include="ViewModel\AdminMainViewModel.cs" />
     <Compile Include="XYOL.Context.cs">
@@ -515,6 +516,7 @@
       <LastGenOutput>XYOL.cs</LastGenOutput>
     </Content>
     <Content Include="Views\Admin\Test.cshtml" />
+    <Content Include="Views\Admin\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -540,9 +542,9 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>8501</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:56970/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
