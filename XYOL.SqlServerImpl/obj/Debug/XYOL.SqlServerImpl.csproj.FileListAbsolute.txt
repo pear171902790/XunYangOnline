@@ -1,4 +1,0 @@
-D:\XYOnline\XYOL.SqlServerImpl\bin\Debug\XYOL.SqlServerImpl.dll
-D:\XYOnline\XYOL.SqlServerImpl\bin\Debug\XYOL.SqlServerImpl.pdb
-D:\XYOnline\XYOL.SqlServerImpl\obj\Debug\XYOL.SqlServerImpl.dll
-D:\XYOnline\XYOL.SqlServerImpl\obj\Debug\XYOL.SqlServerImpl.pdb

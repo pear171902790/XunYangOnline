@@ -1,5 +1,0 @@
-D:\XYOnline\XYOL.SqlServerInterface\bin\Debug\XYOL.SqlServerInterface.dll
-D:\XYOnline\XYOL.SqlServerInterface\bin\Debug\XYOL.SqlServerInterface.pdb
-D:\XYOnline\XYOL.SqlServerInterface\obj\Debug\XYOL.SqlServerInterface.csprojResolveAssemblyReference.cache
-D:\XYOnline\XYOL.SqlServerInterface\obj\Debug\XYOL.SqlServerInterface.dll
-D:\XYOnline\XYOL.SqlServerInterface\obj\Debug\XYOL.SqlServerInterface.pdb
