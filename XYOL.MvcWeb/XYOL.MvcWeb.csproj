@@ -147,6 +147,8 @@
     <Compile Include="ViewModel\AdminListViewModel.cs" />
     <Compile Include="ViewModel\AdminLoginViewModel.cs" />
     <Compile Include="ViewModel\AdminMainViewModel.cs" />
+    <Compile Include="ViewModel\HomeIndexViewModel.cs" />
+    <Compile Include="ViewModel\HomeLayoutViewModel.cs" />
     <Compile Include="XYOL.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -171,6 +173,7 @@
     <Content Include="Content\bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\bootstrap-3.2.0-dist\js\bootstrap.js" />
     <Content Include="Content\bootstrap-3.2.0-dist\js\bootstrap.min.js" />
+    <Content Include="Content\css\05.jpg" />
     <Content Include="Content\css\06.jpg" />
     <Content Include="Content\css\08.jpg" />
     <Content Include="Content\css\09.jpg" />
@@ -545,6 +548,10 @@
     <Content Include="Views\Admin\Test.cshtml" />
     <Content Include="Views\Admin\List.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Home\Layout.cshtml" />
+    <Content Include="Views\Home\Part1.cshtml" />
+    <Content Include="Views\Home\Part2.cshtml" />
+    <Content Include="Views\Home\Part3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

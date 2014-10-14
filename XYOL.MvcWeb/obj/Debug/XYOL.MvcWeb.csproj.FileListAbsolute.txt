@@ -99,4 +99,3 @@ D:\Personal\XunYangOnline\XYOL.MvcWeb\bin\System.Web.WebPages.Deployment.xml
 D:\Personal\XunYangOnline\XYOL.MvcWeb\bin\System.Web.WebPages.Razor.xml
 D:\Personal\XunYangOnline\XYOL.MvcWeb\obj\Debug\XYOL.MvcWeb.dll
 D:\Personal\XunYangOnline\XYOL.MvcWeb\obj\Debug\XYOL.MvcWeb.pdb
-D:\Personal\XunYangOnline\XYOL.MvcWeb\obj\Debug\XYOL.MvcWeb.csprojResolveAssemblyReference.cache

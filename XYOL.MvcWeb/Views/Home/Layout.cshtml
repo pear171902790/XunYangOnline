@@ -1,0 +1,114 @@
+@model XYOL.MvcWeb.ViewModel.HomeLayoutViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+    <meta name="keywords" content="旬阳在线">
+    <meta name="baidu-site-verification" content="IcUJc2exWHgfBWBs" />
+    <meta name="description" content="旬阳在线">
+    <link href="~/Content/css/index.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script>
+<!--
+    function showtab(m, n, count) {
+        for (var i = 1; i <= count; i++) {
+            if (i == n) {
+                getObject(m + '_' + i).className = "class_o";
+                getObject('tab_' + m + '_' + i).style.display = '';
+                getObject('tabb_' + m + '_' + i).style.display = '';
+            }
+            else {
+                getObject(m + '_' + i).className = "class_f";
+                getObject('tab_' + m + '_' + i).style.display = 'none';
+                getObject('tabb_' + m + '_' + i).style.display = 'none';
+            }
+        }
+    }
+
+    function showtab1(m, n, count) {
+        for (var i = 1; i <= count; i++) {
+            if (i == n) {
+                getObject(m + '_' + i).className = m + "_o";
+                getObject('tab_' + m + '_' + i).style.display = '';
+            }
+            else {
+                getObject(m + '_' + i).className = m + "_f";
+                getObject('tab_' + m + '_' + i).style.display = 'none';
+            }
+        }
+    }
+
+    function getObject(objectId) {
+        if (document.getElementById && document.getElementById(objectId)) {
+            // W3C DOM
+            return document.getElementById(objectId);
+        } else if (document.all && document.all(objectId)) {
+            // MSIE 4 DOM
+            return document.all(objectId);
+        } else if (document.layers && document.layers[objectId]) {
+            // NN 4 DOM.. note: this won't find nested layers
+            return document.layers[objectId];
+        } else {
+            return false;
+        }
+    }
+    //-->
+    </script>
+    <title>@Model.Title</title>
+</head>
+<body>
+    <div class="ad" style="width: 1001px; height: 78px; line-height: 78px;">
+        广告位
+    </div>
+
+    <div class="main top1 bord1 overflow">
+        <div class="fl top1_1">旬阳新闻门户网站</div>
+        <div class="fl top1_2">主管：中共旬阳县委宣传部 主办：旬阳县对外宣传办公室</div>
+        <div class="fr top1_3"><a class="sc" onclick="window.external.addFavorite('http://www.yxol.net/')" href="http://www.yxol.net/" target="_self">加入收藏</a>|<a class="sy" style="BEHAVIOR: url(#default#homepage)" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.yxol.net/');return(false);" href="http://www.yxol.net/">设为首页</a>|<a href="#" target="_blank" class="tg">在线投稿</a></div>
+    </div>
+    <div class="clearfloat"></div>
+
+    <div class="main top2 overflow">
+        <div class="top2_1 fl"></div>
+        <div class="top2_2 fr">
+            <ul class="overflow">
+                <li><a href="/html/shizheng/" target="_blank">旬阳时政</a><a href="/html/news/" target="_blank">新闻中心</a></li>
+                <li class="ts"><a href="html/YX_pic/" target="_blank">图 片</a><a href="html/news/shipin/" target="_blank">视 频</a></li>
+                <li class="ts"><a href="/html/lvyou/" target="_blank">旅 游</a><a href="/html/thwh/" target="_blank">文化</a></li>
+                <li class="ts"><a href="/html/edu_yx/" target="_blank">教 育</a><a href="/html/jiankang/" target="_blank">健 康</a></li>
+                <li class="ts"><a href="#" target="_blank">专 题</a><a href="/html/news/nongyenongcun/" target="_blank">三农</a></li>
+                <li><a href="/html/news/sszh/" target="_blank">外媒聚焦</a><a href="/html/zuoliyunxi/" target="_blank">魅力旬阳</a></li>
+                <li><a href="/html/xiuxianyule/" target="_blank">休闲娱乐</a><a href="http://love.10yan.com/" target="_blank">牛郎织女</a></li>
+                <li><a href="/html/news/gsgg/" target="_blank">公示公告</a><a href="/html/news/lilun/" target="_blank">理 论</a></li>
+                <li><a href="/html/ifo/" target="_blank">信息发布</a><a href="/html/shizheng/zcwj/" target="_blank">政策文件</a></li>
+                <li><a href="#" target="_blank">便民服务</a><a href="html/news/zhaoshang/" target="_blank">招商引资</a></li>
+                <li><a href="http://yxzk.yxol.net" target="_blank">数字报</a><a href="html/readbook/" target="_blank">读　书</a></li>
+                <li class="tss"><a href="http://www.yunxi.gov.cn/guestbook/" target="_blank">网上问政</a><a href="http://bbs.yxol.net" target="_blank">论坛民声</a></li>
+            </ul>
+            <div class="clearfloat"></div>
+        </div>
+    </div>
+    <div class="clearfloat"></div>
+
+    <div class="top3">
+        <div class="top3_1">
+            <div class="fl">
+                <span>
+                    <script src="~/Scripts/curdate.js"></script>
+                </span>
+            </div>
+            <div class="top3_1_s_tq fl">投稿：348633415@qq.com</div>
+            <div class="top3_1_s fr">
+                <div class="fl top3_1_s_l">站内搜索：</div>
+                <div class="search fl">
+                    <input type="text" class="search_inp" name="q" id="q" />
+                    <input type="button" name="sub" value="搜索" class="search_bnt" />
+                </div>
+            </div>
+        </div>
+    </div>
